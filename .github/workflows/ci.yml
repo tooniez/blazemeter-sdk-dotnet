@@ -1,0 +1,21 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+      branches: [main]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '8.0.x'
+      - name: Install dependencies
+        run: dotnet restore blazemeter-sdk.csproj
+      - name: Build
+        run: dotnet build blazemeter-sdk.csproj --configuration Release --no-restore
+      - name: Test
+        run: dotnet test blazemeter-sdk.csprojj --no-restore --verbosity normal

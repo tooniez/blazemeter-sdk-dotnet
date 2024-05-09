@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blazemeter-sdk", "blazemeter-sdk.csproj", "{075A84AA-491A-4DB9-86E1-720BDF5AC5EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{16FA1A56-E207-470C-A24A-E1971E7C2B86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazeMeterTestApp", "Examples\BlazeMeterTestApp\BlazeMeterTestApp.csproj", "{0E5BE847-A5C2-4F4F-BCF6-6A225DAA79D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{075A84AA-491A-4DB9-86E1-720BDF5AC5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075A84AA-491A-4DB9-86E1-720BDF5AC5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075A84AA-491A-4DB9-86E1-720BDF5AC5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075A84AA-491A-4DB9-86E1-720BDF5AC5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5BE847-A5C2-4F4F-BCF6-6A225DAA79D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5BE847-A5C2-4F4F-BCF6-6A225DAA79D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5BE847-A5C2-4F4F-BCF6-6A225DAA79D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5BE847-A5C2-4F4F-BCF6-6A225DAA79D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E5BE847-A5C2-4F4F-BCF6-6A225DAA79D9} = {16FA1A56-E207-470C-A24A-E1971E7C2B86}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77A346EC-9997-48BF-B333-F85337ACA789}
+	EndGlobalSection
+EndGlobal
